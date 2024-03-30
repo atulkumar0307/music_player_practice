@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: white;
+    background-color: #270085;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12vw;
+    height: 7vh;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.options{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.options a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+.options a:hover{   
+    border-bottom: 2px solid white;
+    transition: all .2s;
+}
+
+/* hero-session */
+.hero{
+    color:white;
+    background-image: url(images/hero_image.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 7vh;
+    padding: 0 20vw;
+}
+.item1{
+    font-size: 4rem;
+}
+.item2{
+    font-size: 1.5rem;
+}
+.item3{
+    font-size: 1rem;
+}
+
+/* music-section */
+.music{
+    height: 100vh;
+    background-color: #281154;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 5vh;
+    padding: 5vh 30vh 0 30vh;
+
+}
+.music_word{
+    display: flex;
+    gap: 1vw;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.music_1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.music_2{
+    font-size: 1.5rem;
+}
+.trial_button{
+    /* height: 120px; */
+    width: 15vw;
+    font-size: 1.3rem;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 100;
+}
+.trial_button:hover{
+    background-color:rgba(255, 0, 0, 0.6);
+    transition: 0.2s ease-out;
+}
+.ipad_image{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+    height: 90vh;
+    width: 60vw;
+}
+.about_music{
+    padding-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.music_3{
+    color: black;
+    font-size: 2rem;
+}
+.music_4{
+    color: black;
+    font-size: 1.3rem;
+}
+.btn_read{
+    background-color: #37008e;
+    color:white;
+    padding: 10px;
+    width: 25vh;
+    font-size: 1.3rem;
+    border-style: none;
+}
+.btn_read:hover{
+    cursor: pointer;
+    background-color: #090088;
+    transition: .3s ease-out;
+}
+.mac_image{
+    height: 70vh;
+    width: 60vw;
+    margin-bottom: 10vh;
+}
+
+/* video-section  */
+.video{
+    padding-top: 7vh;
+    color: white;
+    height: 100vh;
+    width: auto;
+    background-image: url(images/video.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12vw;
+    row-gap: 5vh;
+    text-align: center;
+}
+.video_1{
+    font-size: 2rem;
+}
+.video_2{
+    font-size: 1.1rem;
+}
+
+/* gift_card section */
+.gift_card{
+    display: flex;
+    margin: 10vh 10vw;
+    column-gap: 7vh;
+}
+.gift_right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+.redeem_btn{
+    height: 5vh;
+    width: 10vw;
+    border-style: none;
+    background-color: #37008e;
+    color: white;
+    font-size: 1.2rem;
+}
+.gift_1{
+    font-size: 2rem;
+}
+
+/* footer section  */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 7vh 12vw;
+    background-color: #1B0058;
+    color: white;
+}
+.footer li{
+    list-style-type: none;
+    padding-top: 1vh;
+}
+.list_head{
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+}
+
+/* copyright */
+.copyright{
+    background-color: #270082;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
